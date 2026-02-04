@@ -31,7 +31,7 @@ export default function Index() {
     <div className="min-h-screen bg-black text-white">
       <nav className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-sm border-b border-white/10">
         <div className="container mx-auto px-6 py-6 flex justify-between items-center">
-          <h1 className="text-2xl font-heading font-bold tracking-wider">OPIUM</h1>
+          <h1 className="text-2xl font-elegant font-bold tracking-[0.3em]">FOREVER DESIGN</h1>
           <div className="flex gap-8">
             <a href="#portfolio" className="opium-text hover:text-white transition-colors">ПОРТФОЛИО</a>
             <a href="#order" className="opium-text hover:text-white transition-colors">ЗАКАЗАТЬ</a>
@@ -41,11 +41,11 @@ export default function Index() {
 
       <section className="min-h-screen flex items-center justify-center px-6 pt-20">
         <div className="text-center animate-fade-in">
-          <h2 className="text-7xl md:text-9xl font-heading font-bold tracking-tighter mb-6">
-            CREATIVE
+          <h2 className="text-7xl md:text-9xl font-elegant font-bold tracking-tight mb-6">
+            FOREVER
           </h2>
-          <h2 className="text-7xl md:text-9xl font-heading font-bold tracking-tighter mb-8 text-white/50">
-            STUDIO
+          <h2 className="text-7xl md:text-9xl font-elegant font-bold tracking-tight mb-8 text-white/50">
+            DESIGN
           </h2>
           <p className="text-lg md:text-xl opium-text max-w-2xl mx-auto mb-12 font-light tracking-wide">
             Создаём минималистичные проекты с максимальным воздействием
@@ -135,7 +135,7 @@ export default function Index() {
 
       <footer className="py-12 px-6 border-t border-white/10">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-          <p className="opium-text font-light tracking-wider">© 2024 OPIUM STUDIO</p>
+          <p className="opium-text font-light tracking-wider">© 2024 FOREVER DESIGN</p>
           <div className="flex gap-6">
             <a href="#" className="opium-text hover:text-white transition-colors">
               <Icon name="Instagram" size={24} />
